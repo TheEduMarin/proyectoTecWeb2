@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Cards - WatchMart</title>
+  <style>
+   * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; color: #333; background-color: #f8f8f8; }
+    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background-color: #0066cc; color: white; }
+    .logo { font-size: 1.5rem; font-weight: bold; }
+    .navbar nav ul { display: flex; gap: 1.5rem; list-style: none; }
+    .navbar nav ul li a { color: white; text-decoration: none; font-weight: 500; }
+    .search-cart { display: flex; gap: 0.5rem; }
+    .search-cart input { padding: 0.5rem; border-radius: 4px; border: none; }
+    .cart-btn { background: none; border: none; font-size: 1.2rem; cursor: pointer; color: white; }
+    .content { padding: 2rem; display: flex; justify-content: center; align-items: center; min-height: calc(100vh - 80px); }
+    .banners { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .banner-item { background-color: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px; text-align: center; }
+    .banner-item img { width: 100%; height: auto; border-radius: 8px; }
+    .banner-text h2 { font-size: 1.5rem; color: #333; margin-top: 1rem; }
+    .banner-text p { font-size: 1rem; color: #666; margin-bottom: 1.5rem; }
+    .shop-now-btn { background-color: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 1rem; }
+  
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">WatchMart</div>
+    <nav>
+      <ul>
+        <li><a href="all-products.html">All Products</a></li>
+        <li><a href="mens-watches.html">Men's Watches</a></li>
+        <li><a href="womens-watches.html">Women's Watches</a></li>
+        <li><a href="new-arrivals.html">New Arrivals</a></li>
+        <li><a href="gift-cards.html">Gift Cards</a></li>
+      </ul>
+    </nav>
+    <div class="search-cart">
+      <input type="text" placeholder="Search product ...">
+      <button class="cart-btn">🛒</button>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="banners">
+      <div class="banner-item">
+        <img src="gift-card-1000.jpg" alt="Gift Card $1000" />
+        <div class="banner-text">
+          <h2>Gift Card $1000</h2>
+          <p>Value: $1,000 USD</p>
+          <a href="product-details.html" class="shop-now-btn">Buy now</a>
+        </div>
+      </div>
+      <div class="banner-item">
+        <img src="gift-card-500.jpg" alt="Gift Card $500" />
+        <div class="banner-text">
+          <h2>Gift Card $500</h2>
+          <p>Value: $500 USD</p>
+          <a href="product-details.html" class="shop-now-btn">Buy now</a>
+        </div>
+      </div>
+      <div class="banner-item">
+        <img src="gift-card-250.jpg" alt="Gift Card $250" />
+        <div class="banner-text">
+          <h2>Gift Card $250</h2>
+          <p>Value: $250 USD</p>
+          <a href="product-details.html" class="shop-now-btn">Buy now</a>
+        </div>
+      </div>
+      <div class="banner-item">
+        <img src="gift-card-100.jpg" alt="Gift Card $100" />
+        <div class="banner-text">
+          <h2>Gift Card $100</h2>
+          <p>Value: $100 USD</p>
+          <a href="product-details.html" class="shop-now-btn">Buy now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
